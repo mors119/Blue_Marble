@@ -1,0 +1,6 @@
+{
+  "name": "영화판 블루마블",
+  "description": "영화 판권을 사고파는 가상의 보드게임으로, 나만의 영화사를 성장시켜 승리하는 전략 경영 게임입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

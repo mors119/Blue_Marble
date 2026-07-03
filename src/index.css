@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Neobrutalist utility classes for Vibrant Palette theme */
+.neobrutal-card-white {
+  background-color: #ffffff;
+  border: 4px solid #2D3436;
+  box-shadow: 4px 4px 0px 0px #2D3436;
+  color: #2D3436;
+}
+
+.neobrutal-card-dark {
+  background-color: #2D3436;
+  border: 4px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neobrutal-btn-yellow {
+  background-color: #FFD93D;
+  border: 3px solid #2D3436;
+  box-shadow: 3px 3px 0px 0px #2D3436;
+  color: #2D3436;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+  transition: all 0.1s ease-in-out;
+}
+
+.neobrutal-btn-yellow:hover:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px 0px #2D3436;
+}
+
+.neobrutal-btn-yellow:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px 0px #2D3436;
+}
+
+.neobrutal-btn-coral {
+  background-color: #FF6B6B;
+  border: 3px solid #2D3436;
+  box-shadow: 3px 3px 0px 0px #2D3436;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all 0.1s ease-in-out;
+}
+
+.neobrutal-btn-coral:hover:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px 0px #2D3436;
+}
+
+.neobrutal-btn-teal {
+  background-color: #4ECDC4;
+  border: 3px solid #2D3436;
+  box-shadow: 3px 3px 0px 0px #2D3436;
+  color: #2D3436;
+  font-weight: 900;
+  transition: all 0.1s ease-in-out;
+}
+
+.neobrutal-btn-teal:hover:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px 0px #2D3436;
+}
